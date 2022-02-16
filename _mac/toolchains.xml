@@ -1,10 +1,11 @@
 <application>
-  <component name="CPPToolchains" version="6">
+  <component name="CPPToolchains" version="7">
     <toolchains detectedVersion="5">
       <toolchain name="Localhost" toolSetKind="SYSTEM_UNIX_TOOLSET" customCMakePath="/Applications/CMake.app/Contents/bin/cmake" customMakePath="/usr/local/bin/gmake" debuggerKind="BUNDLED_LLDB" />
       <toolchain name="Shawn'siPhone" toolSetKind="REMOTE" customCMakePath="/usr/bin/cmake" customMakePath="/usr/bin/make" customCCompilerPath="/usr/bin/clang" customCXXCompilerPath="/usr/bin/clang++" hostId="5184cbab-0603-4ca0-8bef-e19242b26a80" sshConfigName="root@localhost:4444 password" debuggerKind="CUSTOM_GDB" customGDBPath="/usr/bin/gdb" />
       <toolchain name="Pi Zero" toolSetKind="REMOTE" customCMakePath="/usr/bin/cmake" hostId="e596f207-901d-487f-b72c-89221c02d9f7" sshConfigName="pi@bltpi.local:22 password" debuggerKind="CUSTOM_GDB" customGDBPath="/usr/bin/gdb" />
       <toolchain name="System" toolSetKind="SYSTEM_UNIX_TOOLSET" customCMakePath="/Applications/CMake.app/Contents/bin/cmake" customMakePath="/usr/local/Cellar/make/4.3/bin/gmake" customCCompilerPath="/usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/arm-none-eabi-gcc" customCXXCompilerPath="/usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/arm-none-eabi-g++" debuggerKind="CUSTOM_GDB" customGDBPath="/usr/local/Cellar/gdb/10.2/bin/gdb" />
+      <toolchain name="Shawnserver WSL" toolSetKind="REMOTE" customCMakePath="/usr/bin/cmake" customMakePath="/usr/bin/make" customCCompilerPath="/usr/bin/cc" customCXXCompilerPath="/usr/bin/c++" hostId="f6d451b5-97b2-4623-b76a-b188f0a565e9" sshConfigName="shawn@192.168.1.30:2222 password" debuggerKind="CUSTOM_GDB" customGDBPath="/usr/bin/gdb" />
     </toolchains>
   </component>
 </application>

@@ -3,7 +3,8 @@
     <configs>
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="bltpi.local" id="9c74f1b7-fb14-479e-bb9c-69858b2a47a3" port="22" nameFormat="DESCRIPTIVE" username="pi" />
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="localhost" id="e3f32124-6e8f-4e52-868f-257e3f637adf" port="4444" nameFormat="DESCRIPTIVE" username="root" />
-      <sshConfig authType="PASSWORD" host="192.168.1.30" id="702ec6f3-6be2-43f0-ae6e-5cadac000af1" port="2222" nameFormat="DESCRIPTIVE" username="shawn" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.1.30" id="702ec6f3-6be2-43f0-ae6e-5cadac000af1" port="2222" nameFormat="DESCRIPTIVE" username="shawn" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.0.176" id="8a0c6ed0-d2d0-41a4-a328-8a9b83425577" port="22" nameFormat="DESCRIPTIVE" username="pi" useOpenSSHConfig="false" />
     </configs>
   </component>
 </application>

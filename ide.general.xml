@@ -13,7 +13,9 @@
     <option name="widgets">
       <map>
         <entry key="ClangdMemory" value="true" />
+        <entry key="JSONSchemaSelector" value="false" />
         <entry key="Memory" value="true" />
+        <entry key="PowerSaveMode" value="true" />
       </map>
     </option>
   </component>

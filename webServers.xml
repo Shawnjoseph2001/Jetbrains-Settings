@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a125dd70-542f-42e3-99f7-b7940b9cdc60" name="pi@raspberrypi.local:22" url="http:///">
+        <fileTransfer accessType="SFTP" host="raspberrypi.local" port="22" sshConfigId="a5dba60e-3404-41e7-af5e-2f7b10248ee0" sshConfig="pi@raspberrypi.local:22 agent" authAgent="true" />
+      </webServer>
+    </option>
+  </component>
+</application>

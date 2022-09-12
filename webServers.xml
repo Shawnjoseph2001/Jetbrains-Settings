@@ -4,6 +4,9 @@
       <webServer id="a125dd70-542f-42e3-99f7-b7940b9cdc60" name="pi@raspberrypi.local:22" url="http:///">
         <fileTransfer accessType="SFTP" host="raspberrypi.local" port="22" sshConfigId="a5dba60e-3404-41e7-af5e-2f7b10248ee0" sshConfig="pi@raspberrypi.local:22 agent" authAgent="true" />
       </webServer>
+      <webServer id="8d1390cf-8ed4-49f8-954a-cda985731ada" name="shawn@192.168.1.30:22" url="http:///">
+        <fileTransfer accessType="SFTP" host="192.168.1.30" port="22" sshConfigId="5793a362-3334-4e0d-bef1-eb0afa9268d3" sshConfig="shawn@192.168.1.30:22 password" />
+      </webServer>
     </option>
   </component>
 </application>

@@ -4,7 +4,9 @@
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="bltpi.local" id="9c74f1b7-fb14-479e-bb9c-69858b2a47a3" port="22" nameFormat="DESCRIPTIVE" username="pi" />
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="localhost" id="e3f32124-6e8f-4e52-868f-257e3f637adf" port="4444" nameFormat="DESCRIPTIVE" username="root" />
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.1.30" id="702ec6f3-6be2-43f0-ae6e-5cadac000af1" port="2222" nameFormat="DESCRIPTIVE" username="shawn" useOpenSSHConfig="true" />
-      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="raspberrypi.local" id="80530ad1-009f-45ef-8735-080d4ad4587a" port="22" nameFormat="DESCRIPTIVE" username="pi" useOpenSSHConfig="false" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="raspberrypi.local" id="80530ad1-009f-45ef-8735-080d4ad4587a" port="22" customName="pi@raspberrypi.local" nameFormat="CUSTOM" username="pi" useOpenSSHConfig="false">
+        <option name="customName" value="pi@raspberrypi.local" />
+      </sshConfig>
       <sshConfig authType="OPEN_SSH" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="raspberrypi.local" id="a5dba60e-3404-41e7-af5e-2f7b10248ee0" port="22" nameFormat="DESCRIPTIVE" username="pi" useOpenSSHConfig="false" />
       <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.1.30" id="5793a362-3334-4e0d-bef1-eb0afa9268d3" port="22" nameFormat="DESCRIPTIVE" username="shawn" useOpenSSHConfig="false" />
     </configs>
